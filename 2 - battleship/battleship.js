@@ -18,9 +18,23 @@ while (isSunk == false) {
 
     if (guess == location1 || guess == location2 || guess == location3) {
       hits = hits + 1;
+
+      if (hits == 3) {
+        isSunk == true;
+        alert("You sank my battleship!");
+      }
     }
   }
 }
+
+var stats =
+  "You took " +
+  guesses +
+  " guesses to sink the battleship, " +
+  "which means your shooting accuracy was " +
+  3 / guesses;
+
+alert(stats);
 
 //adicionado validacao do palpite.
 //adicionado incremento a variavel "hits" se o palpite for correto.
