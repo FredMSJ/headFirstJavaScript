@@ -36,6 +36,6 @@ var stats =
 
 alert(stats);
 
-//adicionado validacao do palpite.
-//adicionado incremento a variavel "hits" se o palpite for correto.
+//loop while "isSunk finalizado".
 //continuar na pagina 56
+//continuar página 59
