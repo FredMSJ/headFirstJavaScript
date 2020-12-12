@@ -39,6 +39,5 @@ var stats =
 
 alert(stats);
 
-//loop while "isSunk finalizado".
-//continuar na pagina 56
-//continuar página 59
+//analisando melhorias no battleship
+//continuar página 62
