@@ -20,7 +20,7 @@ while (isSunk == false) {
       hits = hits + 1;
 
       if (hits == 3) {
-        isSunk == true;
+        isSunk = true;
         alert("You sank my battleship!");
       }
     }
