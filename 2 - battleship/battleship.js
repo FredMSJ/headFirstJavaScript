@@ -1,4 +1,4 @@
-var randomLoc = Math.random();
+var randomLoc = Math.floor(Math.random() * 5);
 
 var location1 = randomLoc;
 var location2 = randomLoc + 1;
@@ -41,5 +41,5 @@ var stats =
 
 alert(stats);
 
-//analisando melhorias no battleship
-//continuar página 62
+//inserindo aleatoriedade na localização do navio
+//continuar página 68
